@@ -14,7 +14,7 @@ star() {
 read -p "Insert Odd number " rows
 if [ $((rows%2)) -eq 0 ]
 then
-  echo "This is even number, please insert Odd number for star output."
+  echo "please insert Odd number only for star output."
 else
   star
 fi
